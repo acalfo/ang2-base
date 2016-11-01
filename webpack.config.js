@@ -1,13 +1,22 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
 
-    entry: path.join(__dirname, 'public', 'src', 'js', 'index.js'),
+    entry: {
+        'polyfills': path.join(__dirname, 'public', 'src', 'polyfills.ts'),
+        'vendor': path.join(__dirname, 'public', 'src', 'vendor.ts'),
+        'app': path.join(__dirname, 'public', 'src', 'main.ts')
+    },
 
     output: {
-        path: path.join(__dirname, 'public', 'src'),
-        filename: 'app.js'
+        path: path.join(__dirname, 'public', 'dist', 'js'),
+        filename: '[name].js'
     },
+
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({ name: [ 'app', 'vendor', 'polyfills'] })
+    ],
 
     resolve: {
         extensions: ['', '.js', '.ts']
@@ -20,15 +29,15 @@ module.exports = {
             {
                 test: /\.ts/,
 
-                loaders: ['ts-loader'],
+                loaders: [ 'ts-loader' ],
 
-                // Skip any files outside of your project's `src` directory
+                // Skip any files outside of `src` directory
                 include: [
-                    path.resolve(__dirname, "public", "src", "js"),
+                    path.resolve(__dirname, "public", "src"),
                 ],
 
                 exclude: /node_modules/
-            },
+            }
         ]
     }
 }

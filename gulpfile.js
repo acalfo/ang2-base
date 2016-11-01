@@ -10,28 +10,25 @@ var fs = require('fs');
 
 gulp.task('serve', [ 'build', 'server', 'watch' ]);
 
-gulp.task('build', [ 'js', 'css' ], function() {
-    return del.sync([ 'src/bundle.js' ])
-});
+gulp.task('build', [ 'clean', 'js', 'css', 'html' ]);
 
-gulp.task('js', ['webpack'], function() {
-    return gulp.src('public/src/bundle.js', { base: 'public' })
-        .pipe(uglify())
-        .pipe(gulp.dest('dist/'));
-});
-
-gulp.task('webpack', [ 'clean' ], function() {
+gulp.task('js', function() {
     return gulp.src('public/src/**/*.ts', { base: 'public' })
         .pipe(webpack(require('./webpack.config.js')))
-        .pipe(gulp.dest('public/dist/app'));
+        .pipe(gulp.dest('public/dist/js'));
 });
 
 gulp.task('css', function () {
-    return gulp.src('public/src/**/*.css', { base: 'public' })
+    return gulp.src('public/src/**/*.css')
         .pipe(concat('app.css'))
         .pipe(autoprefixer())
         .pipe(minifyCSS())
-        .pipe(gulp.dest('public/dist'))
+        .pipe(gulp.dest('public/dist/css'))
+});
+
+gulp.task('html', function() {
+    return gulp.src('public/src/app/**/*.html', { base: 'public/src/app' })
+        .pipe(gulp.dest('public/dist/templates'));
 });
 
 gulp.task('server', function() {
@@ -43,9 +40,9 @@ gulp.task('server', function() {
 
 // watch for changes and run the relevant task
 gulp.task('watch', function () {
-    gulp.watch('public/src/js/**/*.js', ['js']);
-    gulp.watch('public/src/js/**/*.js', ['js']);
-    gulp.watch('public/src/templates/**/*.html', ['html']);
+    gulp.watch('public/src/**/*.ts', [ 'js' ]);
+    gulp.watch('public/src/**/*.css', [ 'css' ]);
+    gulp.watch('public/src/**/*.html', [ 'html' ]);
 });
 
 gulp.task('clean', function() {

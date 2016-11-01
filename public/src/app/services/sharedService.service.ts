@@ -1,0 +1,1 @@
+/* Example of a service that is shared among modules */

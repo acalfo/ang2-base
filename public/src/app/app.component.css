@@ -1,0 +1,13 @@
+/* Global CSS */
+app {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+}
+
+nav {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
