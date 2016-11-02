@@ -1,3 +1,6 @@
 node_modules/
 public/dist/
 server.log
+.idea/
+npm-debug.log
+typings/
