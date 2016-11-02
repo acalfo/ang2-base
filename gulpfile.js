@@ -10,15 +10,15 @@ var fs = require('fs');
 
 gulp.task('serve', [ 'build', 'server', 'watch' ]);
 
-gulp.task('build', [ 'clean', 'js', 'css', 'html' ]);
+gulp.task('build', [ 'js', 'css']);
 
-gulp.task('js', function() {
+gulp.task('js', [ 'cleanjs' ], function() {
     return gulp.src('public/src/**/*.ts', { base: 'public' })
         .pipe(webpack(require('./webpack.config.js')))
         .pipe(gulp.dest('public/dist/js'));
 });
 
-gulp.task('css', function () {
+gulp.task('css', [ 'cleancss' ], function () {
     return gulp.src('public/src/**/*.css')
         .pipe(concat('app.css'))
         .pipe(autoprefixer())
@@ -42,9 +42,13 @@ gulp.task('server', function() {
 gulp.task('watch', function () {
     gulp.watch('public/src/**/*.ts', [ 'js' ]);
     gulp.watch('public/src/**/*.css', [ 'css' ]);
-    gulp.watch('public/src/**/*.html', [ 'html' ]);
+    gulp.watch('public/src/**/*.html', [ 'js' ]);
 });
 
-gulp.task('clean', function() {
-    return del.sync(['public/dist/**']);
+gulp.task('cleanjs', function() {
+    return del.sync(['public/dist/js/**']);
+});
+
+gulp.task('cleancss', function() {
+    return del.sync(['public/dist/css/**']);
 });

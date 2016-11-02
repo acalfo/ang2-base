@@ -3,6 +3,9 @@ var webpack = require('webpack');
 
 module.exports = {
 
+    devtool: 'eval',
+    cache: true,
+
     entry: {
         'polyfills': path.join(__dirname, 'public', 'src', 'polyfills.ts'),
         'vendor': path.join(__dirname, 'public', 'src', 'vendor.ts'),
@@ -15,28 +18,33 @@ module.exports = {
     },
 
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({ name: [ 'app', 'vendor', 'polyfills'] })
+        new webpack.optimize.CommonsChunkPlugin({ name: [ 'app', 'vendor', 'polyfills'], children:  true, minChunks: 2 })
     ],
 
     resolve: {
         extensions: ['', '.js', '.ts']
     },
 
-    devtool: 'source-map',
-
     module: {
         loaders: [
             {
                 test: /\.ts/,
 
-                loaders: [ 'ts-loader' ],
+                loaders: [ 'ts-loader?cacheDirectory', 'angular2-template-loader?cacheDirectory'],
 
                 // Skip any files outside of `src` directory
                 include: [
-                    path.resolve(__dirname, "public", "src"),
-                ],
+                    path.join(__dirname, "public", "src"),
+                ]
+            }, {
+                test: /\.html$/,
 
-                exclude: /node_modules/
+                loader: 'raw-loader?cacheDirectory',
+
+                // Skip any files outside of `src` directory
+                include: [
+                    path.join(__dirname, "public", "src"),
+                ]
             }
         ]
     }

@@ -1,11 +1,10 @@
-/* Example of Component ( not a module )*/
+/* Example of a Shared Component */
 import { Component } from '@angular/core';
 
 @Component({
     selector:    'dashboard',
-    templateUrl: 'dist/templates/components/dashboard/dashboard.component.html'
+    templateUrl: './dashboard.component.html'
 })
-
 export class DashboardComponent {
 
     constructor () {}

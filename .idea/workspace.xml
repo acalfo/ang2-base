@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8e47e42-b686-4a60-9a31-78221f5971fd" name="Default" comment="" />
+    <list default="true" id="e8e47e42-b686-4a60-9a31-78221f5971fd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/src/app/modules/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/src/app/modules/shared/index.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.css" afterPath="$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.html" afterPath="$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/src/app/services/sharedService.service.ts" afterPath="$PROJECT_DIR$/public/src/app/modules/shared/services/sharedService.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/app.component.ts" afterPath="$PROJECT_DIR$/public/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/app.module.ts" afterPath="$PROJECT_DIR$/public/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/app.routes.ts" afterPath="$PROJECT_DIR$/public/src/app/app.routes.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.ts" afterPath="$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.ts" afterPath="$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.log" afterPath="$PROJECT_DIR$/server.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
     <ignored path="ang-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,17 +42,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="main.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="192">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,29 +75,34 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/public/src/js/app/app.component.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/public/src/app/todo/models/todo.model.ts" />
         <option value="$PROJECT_DIR$/public/src/app/todo/services/todo.service.ts" />
         <option value="$PROJECT_DIR$/public/src/app/todo/index.ts" />
         <option value="$PROJECT_DIR$/public/src/app/sharedService.service.ts" />
-        <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.ts" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.ts" />
-        <option value="$PROJECT_DIR$/public/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/public/src/main.ts" />
-        <option value="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.html" />
         <option value="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.css" />
         <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.css" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.html" />
-        <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.ts" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/public/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/public/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/public/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.html" />
+        <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/public/src/app/modules/todo/index.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/modules/shared/index.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/modules/index.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/public/src/app/app.routes.ts" />
       </list>
     </option>
   </component>
@@ -117,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -183,118 +212,13 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang-test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang-test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ang-test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="detail" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,16 +232,16 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/src/app/modules/shared" />
       <recent name="$PROJECT_DIR$/public/src/app/services" />
       <recent name="$PROJECT_DIR$/public/src/app/modules" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -368,12 +292,13 @@
       <workItem from="1477936256488" duration="1850000" />
       <workItem from="1477949102369" duration="6616000" />
       <workItem from="1478012548292" duration="3272000" />
-      <workItem from="1478015890984" duration="7925000" />
+      <workItem from="1478015890984" duration="11459000" />
+      <workItem from="1478099027827" duration="1644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19663000" />
+    <option name="totallyTimeSpent" value="24841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -417,188 +342,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/src/js/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478032283000" expanded="true" signature="80:992" placeholder="{&quot;devtool&quot;: 'source-map'...}" />
-            <marker date="1478032283000" expanded="true" signature="326:423" placeholder="{&quot;filename&quot;: 'app.js'...}" />
-            <marker date="1478032283000" expanded="true" signature="553:599" placeholder="{...}" />
-            <marker date="1478032283000" expanded="true" signature="642:990" placeholder="{...}" />
-            <marker date="1478032283000" expanded="true" signature="661:984" placeholder="[...]" />
-            <marker date="1478032283000" expanded="true" signature="675:974" placeholder="{&quot;test&quot;: /\.ts/...}" />
-            <marker date="1478032283000" expanded="true" signature="837:918" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/node_modules/babel-loader/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="92" column="4751" selection-start-line="92" selection-start-column="4751" selection-end-line="92" selection-end-column="4751" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/babel-loader/index.js" />
+    <entry file="file://$PROJECT_DIR$/public/dist/app.css" />
+    <entry file="file://$PROJECT_DIR$/public/src/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/public/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/public/dist/app/app.js" />
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package_bak.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/js/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/js/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <marker date="1478029683000" expanded="true" signature="0:1234" placeholder="{&quot;name&quot;: &quot;angular2-sandbox&quot;...}" />
-            <marker date="1478029683000" expanded="true" signature="67:136" placeholder="{&quot;start&quot;: &quot;gulp serve&quot;...}" />
-            <marker date="1478029683000" expanded="true" signature="176:501" placeholder="{&quot;angular2&quot;: &quot;2.0.0-beta.9&quot;...}" />
-            <marker date="1478029683000" expanded="true" signature="674:1136" placeholder="{&quot;ts-loader&quot;: &quot;^0.7.2&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package_bak.json" />
+    <entry file="file://$PROJECT_DIR$/public/src/js/app/main.ts" />
+    <entry file="file://$PROJECT_DIR$/public/src/js/app/app.component.ts" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1478032283000" expanded="true" signature="80:992" placeholder="{&quot;devtool&quot;: 'source-map'...}" />
-            <marker date="1478032283000" expanded="true" signature="326:423" placeholder="{&quot;filename&quot;: 'app.js'...}" />
-            <marker date="1478032283000" expanded="true" signature="553:599" placeholder="{...}" />
-            <marker date="1478032283000" expanded="true" signature="642:990" placeholder="{...}" />
-            <marker date="1478032283000" expanded="true" signature="661:984" placeholder="[...]" />
-            <marker date="1478032283000" expanded="true" signature="675:974" placeholder="{&quot;test&quot;: /\.ts/...}" />
-            <marker date="1478032283000" expanded="true" signature="837:918" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478037428000" expanded="true" signature="101:584" placeholder="{...}" />
-            <marker date="1478037428000" expanded="true" signature="648:761" placeholder="{...}" />
-            <marker date="1478037428000" expanded="true" signature="763:792" placeholder="/*...*/" />
-            <marker date="1478037428000" expanded="true" signature="863:1154" placeholder="{...}" />
-            <marker date="1478037428000" expanded="true" signature="892:899" placeholder="{...}" />
-            <marker date="1478037428000" expanded="true" signature="962:1001" placeholder="{...}" />
-            <marker date="1478037428000" expanded="true" signature="1032:1113" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/public/src/index.ts" />
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.js" />
     <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -606,101 +374,142 @@
           <folding>
             <marker date="1478037623000" expanded="true" signature="0:29" placeholder="/*...*/" />
             <marker date="1478037623000" expanded="true" signature="37:118" placeholder="..." />
-            <marker date="1478037623000" expanded="true" signature="159:265" placeholder="{...}" />
             <marker date="1478037623000" expanded="true" signature="224:263" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/todo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/app.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/polyfills.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/services/sharedService.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="55" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
-          <folding>
-            <marker date="1478037910000" expanded="true" signature="0:55" placeholder="/*...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/todo.css" />
+    <entry file="file://$PROJECT_DIR$/public/src/app/app.module.js" />
+    <entry file="file://$PROJECT_DIR$/public/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/public/src/polyfills.js" />
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.js" />
     <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/models/todo.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <marker date="1478037581000" expanded="true" signature="18:57" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/templates/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <marker date="1478042688000" expanded="true" signature="24:166" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/index.ts">
+    <entry file="file://$PROJECT_DIR$/public/dist/templates/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="8" />
-          <folding />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.html">
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/templates/modules/todo/components/list/todo-list.component.html" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/services/todo.service.js.map" />
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <marker date="1478045422000" expanded="true" signature="23:249" placeholder="{&quot;module&quot;: &quot;commonjs&quot;...}" />
+            <marker date="1478045422000" expanded="true" signature="264:288" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding>
-            <marker date="1478041874000" expanded="true" signature="27:52" placeholder="..." />
+            <marker date="1478047115000" expanded="true" signature="27:54" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.css">
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/shared/services/sharedService.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
+          <folding>
+            <marker date="1478037910000" expanded="false" signature="0:55" placeholder="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
@@ -710,164 +519,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <marker date="1478033688000" expanded="true" signature="19:39" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
-          <folding>
-            <marker date="1478039092000" expanded="true" signature="0:31" placeholder="/*...*/" />
-            <marker date="1478039092000" expanded="true" signature="87:205" placeholder="{&quot;selector&quot;: 'todo-list'...}" />
-            <marker date="1478039092000" expanded="true" signature="239:265" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding>
-            <marker date="1478041909000" expanded="true" signature="37:56" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/components/dashboard/dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1478040646000" expanded="true" signature="0:42" placeholder="/*...*/" />
-            <marker date="1478040646000" expanded="true" signature="98:211" placeholder="{&quot;selector&quot;: 'dashboard'...}" />
-            <marker date="1478040646000" expanded="true" signature="246:272" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/templates/modules/todo/components/list/todo-list.component.html">
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/shared/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478042688000" expanded="true" signature="51:76" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <marker date="1478042347000" expanded="true" signature="29:56" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <marker date="1478042471000" expanded="true" signature="21:638" placeholder="..." />
-            <marker date="1478042471000" expanded="true" signature="32:239" placeholder="..." />
-            <marker date="1478042471000" expanded="true" signature="251:630" placeholder="..." />
-            <marker date="1478042471000" expanded="true" signature="266:304" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/list/todo-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <marker date="1478042688000" expanded="true" signature="51:76" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478031166000" expanded="true" signature="21:621" placeholder="..." />
-            <marker date="1478031166000" expanded="true" signature="32:235" placeholder="..." />
-            <marker date="1478031166000" expanded="true" signature="247:613" placeholder="..." />
-            <marker date="1478031166000" expanded="true" signature="265:306" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="74" />
-          <folding>
-            <marker date="1478040550000" expanded="true" signature="457:621" placeholder="{...}" />
-            <marker date="1478040550000" expanded="true" signature="654:834" placeholder="{...}" />
-            <marker date="1478040550000" expanded="true" signature="867:997" placeholder="{...}" />
-            <marker date="1478040550000" expanded="true" signature="1032:1210" placeholder="{...}" />
-            <marker date="1478040550000" expanded="true" signature="1292:1445" placeholder="{...}" />
-            <marker date="1478040550000" expanded="true" signature="1479:1523" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <marker date="1478042476000" expanded="true" signature="55:132" placeholder="{&quot;selector&quot;: 'app'...}" />
-            <marker date="1478042476000" expanded="true" signature="160:204" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/app.routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <marker date="1478042658000" expanded="true" signature="7:264" placeholder="..." />
-            <marker date="1478042658000" expanded="true" signature="319:480" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <marker date="1478041322000" expanded="true" signature="7:406" placeholder="..." />
-            <marker date="1478041322000" expanded="true" signature="418:646" placeholder="{...}" />
-            <marker date="1478041322000" expanded="true" signature="433:479" placeholder="[...]" />
-            <marker date="1478041322000" expanded="true" signature="499:611" placeholder="[...]" />
-            <marker date="1478041322000" expanded="true" signature="672:675" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <marker date="1478042665000" expanded="true" signature="24:166" placeholder="..." />
-          </folding>
+          <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -882,16 +538,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/components/detail/todo-detail.component.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="893">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1478042394000" expanded="true" signature="0:31" placeholder="/*...*/" />
-            <marker date="1478042394000" expanded="true" signature="39:133" placeholder="..." />
-            <marker date="1478042394000" expanded="true" signature="146:302" placeholder="{&quot;selector&quot;: 'todo-detail'...}" />
-            <marker date="1478042394000" expanded="true" signature="338:510" placeholder="{...}" />
-            <marker date="1478042394000" expanded="true" signature="458:508" placeholder="{...}" />
+            <marker date="1478044940000" expanded="true" signature="0:1320" placeholder="{&quot;name&quot;: &quot;angular2-sandbox&quot;...}" />
+            <marker date="1478044940000" expanded="true" signature="67:136" placeholder="{&quot;start&quot;: &quot;gulp serve&quot;...}" />
+            <marker date="1478044940000" expanded="true" signature="176:501" placeholder="{&quot;angular2&quot;: &quot;2.0.0-beta.9&quot;...}" />
+            <marker date="1478044940000" expanded="true" signature="176:746" placeholder="{&quot;@angular/common&quot;: &quot;~2.1.1&quot;...}" />
+            <marker date="1478044940000" expanded="true" signature="769:1318" placeholder="{&quot;@types/core-js&quot;: &quot;^0.9.34&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="74" column="7" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/shared/components/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1478099607000" expanded="true" signature="0:35" placeholder="/*...*/" />
+            <marker date="1478099607000" expanded="true" signature="91:170" placeholder="{&quot;selector&quot;: 'dashboard'...}" />
+            <marker date="1478099607000" expanded="true" signature="204:230" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1478042665000" expanded="true" signature="24:166" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <marker date="1478044062000" expanded="true" signature="55:119" placeholder="{&quot;selector&quot;: 'app'...}" />
+            <marker date="1478044062000" expanded="true" signature="147:191" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/todo/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/modules/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="101" />
+          <folding>
+            <marker date="1478100755000" expanded="true" signature="7:292" placeholder="..." />
+            <marker date="1478100755000" expanded="true" signature="304:564" placeholder="{...}" />
+            <marker date="1478100755000" expanded="true" signature="319:365" placeholder="[...]" />
+            <marker date="1478100755000" expanded="true" signature="385:497" placeholder="[...]" />
+            <marker date="1478100755000" expanded="true" signature="590:593" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/app.routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1478100770000" expanded="true" signature="7:198" placeholder="..." />
+            <marker date="1478100770000" expanded="true" signature="253:414" placeholder="[...]" />
           </folding>
         </state>
       </provider>
@@ -899,31 +637,10 @@
     <entry file="file://$PROJECT_DIR$/public/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding>
-            <marker date="1478041347000" expanded="true" signature="7:169" placeholder="..." />
-            <marker date="1478041347000" expanded="true" signature="209:234" placeholder="{...}" />
+            <element signature="e#0#75#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1478032381000" expanded="true" signature="0:289" placeholder="{...}" />
-            <marker date="1478032381000" expanded="true" signature="23:248" placeholder="{&quot;module&quot;: &quot;commonjs&quot;...}" />
-            <marker date="1478032381000" expanded="true" signature="263:287" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>

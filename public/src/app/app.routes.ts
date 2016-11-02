@@ -1,8 +1,7 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { TodoListComponent, TodoDetailComponent } from './modules/todo';
+import { TodoListComponent, TodoDetailComponent, DashboardComponent } from './modules';
 
 // Route Configuration
 export const routes: Routes = [

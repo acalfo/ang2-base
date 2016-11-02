@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
-import { RouterModule }  from '@angular/router';
 
-import { AppComponent } from './app.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { TodoListComponent, TodoDetailComponent, TodoService } from './modules/todo';
 import { routing } from './app.routes';
+import { AppComponent } from './app.component';
+import { TodoListComponent, TodoDetailComponent, TodoService, DashboardComponent } from './modules/';
 
 @NgModule({
     imports: [
@@ -18,6 +16,7 @@ import { routing } from './app.routes';
         TodoListComponent,
         TodoDetailComponent
     ],
+    providers: [ TodoService ],
     bootstrap: [ AppComponent ]
 })
 
