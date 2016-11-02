@@ -1,5 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
+var path = require('path'),
+    webpack = require('webpack'),
+    ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin,
+    CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
 
 module.exports = {
 
@@ -18,7 +20,12 @@ module.exports = {
     },
 
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({ name: [ 'app', 'vendor', 'polyfills'], children:  true, minChunks: 2 })
+
+        /* Description: Shares common code between the pages. */
+        new CommonsChunkPlugin({ name: ['polyfills', 'vendor'].reverse() }),
+
+        /* Description: Do type checking in a separate process, so webpack don't need to wait. */
+        new ForkCheckerPlugin(),
     ],
 
     resolve: {
