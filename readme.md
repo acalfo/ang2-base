@@ -2,8 +2,6 @@
 Run `sudo npm install -g typescript`
 Run `sudo npm install -g typings`
 
-Run 'gulp build'
-
 # Developing on the built playground
 Run `npm start` from the root of the project directory
 * The app is served @ localhost:3000
@@ -13,12 +11,23 @@ Run `npm start` from the root of the project directory
 
 
 # Resources
-Webpack tutorial: https://egghead.io/lessons/javascript-intro-to-webpack
-Webpack Docs: https://webpack.github.io/docs/
+## Angular 2
+Docs: https://angular.io/docs/ts/latest/
 
-Angular 2 Docs: https://angular.io/docs/ts/latest/
-Angular 2 Todo Tutorial: https://angular.io/docs/ts/latest/
-Angular 2 Hero Tutorial: https://angular.io/docs/ts/latest/tutorial/toh-pt1.html
+Hero Tutorial: https://angular.io/docs/ts/latest/tutorial/toh-pt1.html
 
-Typescript Docs: https://www.typescriptlang.org/docs/tutorial.html
-Typescript tutorial: Run `sudo npm install -g typings`
+Todo Tutorial: https://angular.io/docs/ts/latest/
+
+## Typescript
+Docs: https://www.typescriptlang.org/docs/tutorial.html
+
+Tutorial: Run `sudo npm install -g typings`
+
+## Webpack
+Tutorial: https://egghead.io/lessons/javascript-intro-to-webpack
+
+Docs: https://webpack.github.io/docs/
+
+# Todo
+Move html files into components folders and use https://plugins.jetbrains.com/plugin/8395 plugin
+to allow edits to templates to auto compile quickly.
