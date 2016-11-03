@@ -5,6 +5,8 @@ Run `sudo npm install -g typescript`
 
 Run `sudo npm install -g typings`
 
+run `npm install`
+
 # Developing on the built playground
 Run `npm start` from the root of the project directory
 * The app is served @ localhost:3000
