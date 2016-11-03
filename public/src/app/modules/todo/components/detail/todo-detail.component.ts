@@ -5,7 +5,7 @@ import { TodoService } from '../../services/todo.service';
 @Component({
     selector: 'todo-detail',
     providers: [ TodoService ],
-    templateUrl: './todo-detail.component.html'
+    templateUrl: 'templates/todo/todo-detail.component.html'
 })
 
 export class TodoDetailComponent {

@@ -1,6 +1,5 @@
 var path = require('path'),
     webpack = require('webpack'),
-    ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin,
     CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');
 
 module.exports = {
@@ -20,12 +19,8 @@ module.exports = {
     },
 
     plugins: [
-
         /* Description: Shares common code between the pages. */
-        new CommonsChunkPlugin({ name: ['polyfills', 'vendor'].reverse() }),
-
-        /* Description: Do type checking in a separate process, so webpack don't need to wait. */
-        new ForkCheckerPlugin(),
+        new CommonsChunkPlugin({ name: ['polyfills', 'vendor'].reverse() })
     ],
 
     resolve: {
@@ -37,16 +32,7 @@ module.exports = {
             {
                 test: /\.ts/,
 
-                loaders: [ 'ts-loader?cacheDirectory', 'angular2-template-loader?cacheDirectory'],
-
-                // Skip any files outside of `src` directory
-                include: [
-                    path.join(__dirname, "public", "src"),
-                ]
-            }, {
-                test: /\.html$/,
-
-                loader: 'raw-loader?cacheDirectory',
+                loaders: [ 'ts-loader' ],
 
                 // Skip any files outside of `src` directory
                 include: [
