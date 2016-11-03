@@ -21,7 +21,7 @@ Todo Tutorial: https://angular.io/docs/ts/latest/
 ## Typescript
 Docs: https://www.typescriptlang.org/docs/tutorial.html
 
-Tutorial: Run `sudo npm install -g typings`
+Tutorial: https://www.typescriptlang.org/docs/tutorial.html
 
 ## Webpack
 Tutorial: https://egghead.io/lessons/javascript-intro-to-webpack
