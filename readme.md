@@ -1,5 +1,8 @@
 # Building the playground
+Run 'sudo npm install -g gulp'
+
 Run `sudo npm install -g typescript`
+
 Run `sudo npm install -g typings`
 
 # Developing on the built playground
